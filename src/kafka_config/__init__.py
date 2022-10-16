@@ -18,14 +18,14 @@ SECURITY_PROTOCOL="SASL_SSL" #Simple Auth and Security layer - connect securely
 SSL_MACHENISM="PLAIN"
 
 #API Details
-API_KEY = "COW5763J2HJXHT7E" #os.getenv('API_KEY',None)
-API_SECRET_KEY = "rWe19ZGl0FZZRh4jmk9XLetDeDzDFFpZkBEX+xNHnHLrx3E3wMdZrJgay04K5iyJ" # os.getenv('API_SECRET_KEY',None)
-BOOTSTRAP_SERVER = "pkc-41p56.asia-south1.gcp.confluent.cloud:9092" #os.getenv('BOOTSTRAP_SERVER',None)
+API_KEY = "" #os.getenv('API_KEY',None)
+API_SECRET_KEY = "" # os.getenv('API_SECRET_KEY',None)
+BOOTSTRAP_SERVER = "" #os.getenv('BOOTSTRAP_SERVER',None)
 
 # Schema Related Cred
-ENDPOINT_SCHEMA_URL  = "https://psrc-znpo0.ap-southeast-2.aws.confluent.cloud" #os.getenv('ENDPOINT_SCHEMA_URL',None)
-SCHEMA_REGISTRY_API_KEY = "56HGY64GFCDTVH73" #os.getenv('SCHEMA_REGISTRY_API_KEY',None)
-SCHEMA_REGISTRY_API_SECRET = "VTWaZjmR7nn8bD6HvxDBydlP2/N2oq+BVDOlvoM6EFPDx2+CUPgSAI6Pm478iNkI" #os.getenv('SCHEMA_REGISTRY_API_SECRET',None)
+ENDPOINT_SCHEMA_URL  = "" #os.getenv('ENDPOINT_SCHEMA_URL',None)
+SCHEMA_REGISTRY_API_KEY = "" #os.getenv('SCHEMA_REGISTRY_API_KEY',None)
+SCHEMA_REGISTRY_API_SECRET = "" #os.getenv('SCHEMA_REGISTRY_API_SECRET',None)
 
 def sasl_conf():
 
